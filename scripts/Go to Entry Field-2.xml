@@ -48,9 +48,9 @@
 									<value>
 										<Calculation datatype="1" position="1">
 											<Calculation>
-												<Text><![CDATA["Hello World"]]></Text>
-												<ChunkList hash="B5400398D4024137986B7F7CFF958C8D">
-													<Chunk type="NoRef">"Hello World"</Chunk>
+												<Text><![CDATA["Goodbye World"]]></Text>
+												<ChunkList hash="2838AE506715F682847553C19ED34F96">
+													<Chunk type="NoRef">"Goodbye World"</Chunk>
 												</ChunkList>
 											</Calculation>
 										</Calculation>
