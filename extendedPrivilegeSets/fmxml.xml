@@ -1,0 +1,5 @@
+<ExtendedPrivilege id="5" name="fmxml">
+						<Description>Access via XML Web Publishing - FMS only</Description>
+						<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:24">69C22705-A516-7D4E-A440-9FC05A0DF2E0</UUID>
+						<TagList/>
+					</ExtendedPrivilege>

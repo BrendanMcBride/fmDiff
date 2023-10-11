@@ -1,0 +1,11 @@
+<Field DefaultStyle="" id="2" name="CreationTimestamp" fieldtype="Normal" datatype="Timestamp" comment="Date and time each record was created">
+							<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">529477EB-1C89-4F4F-8811-12479D2EC97E</UUID>
+							<AutoEnter type="CreationTimestamp" prohibitModification="True"/>
+							<Validation type="OnlyDuringDataEntry" allowOverride="False" notEmpty="True" unique="False" existing="False">
+								<Strict>FourDigitYear</Strict>
+							</Validation>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"/>
+							</Storage>
+							<TagList>#_FMI_0 </TagList>
+						</Field>

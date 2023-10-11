@@ -1,0 +1,30 @@
+<Field DefaultStyle="" id="5" name="Sort By" fieldtype="Calculated" datatype="Date" comment="">
+							<UUID modifications="2" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">525B3274-1E24-0B48-BDAD-A0E5B675A108</UUID>
+							<AutoEnter alwaysEvaluate="False"/>
+							<Storage storeCalculationResults="True" autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"/>
+							</Storage>
+							<Calculation>
+								<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+								<Text><![CDATA[If ( IsEmpty ( Date Returned ) ; "1/1/2099" ; Date Returned )]]></Text>
+								<ChunkList hash="C7E397CFF55EE33E0409BCA104755592">
+									<Chunk type="FunctionRef">If</Chunk>
+									<Chunk type="NoRef"> ( </Chunk>
+									<Chunk type="FunctionRef">IsEmpty</Chunk>
+									<Chunk type="NoRef"> ( </Chunk>
+									<Chunk type="FieldRef">
+										<FieldReference id="3" name="Date Returned" repetition="1" UUID="43BF8912-02D3-2F4C-851F-F7BF398DC068">
+											<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+										</FieldReference>
+									</Chunk>
+									<Chunk type="NoRef"> ) ; "1/1/2099" ; </Chunk>
+									<Chunk type="FieldRef">
+										<FieldReference id="3" name="Date Returned" repetition="1" UUID="43BF8912-02D3-2F4C-851F-F7BF398DC068">
+											<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+										</FieldReference>
+									</Chunk>
+									<Chunk type="NoRef"> )</Chunk>
+								</ChunkList>
+							</Calculation>
+							<TagList/>
+						</Field>

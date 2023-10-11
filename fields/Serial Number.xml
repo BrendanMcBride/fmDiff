@@ -1,0 +1,9 @@
+<Field DefaultStyle="" id="3" name="Serial Number" fieldtype="Normal" datatype="Text" comment="">
+							<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">1C57471C-2C20-C946-A092-91A7EB8A2EBC</UUID>
+							<AutoEnter type="" prohibitModification="False"/>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"/>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"/>
+							</Storage>
+							<TagList/>
+						</Field>

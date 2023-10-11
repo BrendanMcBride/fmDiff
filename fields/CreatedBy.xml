@@ -1,0 +1,9 @@
+<Field DefaultStyle="" id="3" name="CreatedBy" fieldtype="Normal" datatype="Text" comment="Account name of the user who created each record">
+							<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">49EE9B3C-8CF9-874F-A7E6-CDCEEE102564</UUID>
+							<AutoEnter type="CreationAccountName" prohibitModification="True"/>
+							<Validation type="OnlyDuringDataEntry" allowOverride="False" notEmpty="True" unique="False" existing="False"/>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"/>
+							</Storage>
+							<TagList>#_FMI_0 </TagList>
+						</Field>

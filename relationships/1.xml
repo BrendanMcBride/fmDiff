@@ -1,0 +1,26 @@
+<Relationship id="1">
+					<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">5B44F96A-1A71-AD48-9692-26E26878BB41</UUID>
+					<LeftTable cascadeCreate="False" cascadeDelete="False" type="Local">
+						<TableOccurrenceReference id="1065092" name="Employees" UUID="0C948B5B-A8B5-A847-8F16-9A49EF175325"/>
+						<SortSpecification value="False" maintain="True"/>
+					</LeftTable>
+					<RightTable cascadeCreate="False" cascadeDelete="False" type="Local">
+						<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+						<SortSpecification value="False" maintain="True"/>
+					</RightTable>
+					<JoinPredicateList membercount="1">
+						<JoinPredicate type="Equal">
+							<LeftField>
+								<FieldReference id="4" name="PrimaryKey" UUID="92B6C936-B0A3-794E-8BDD-334423637294">
+									<TableOccurrenceReference id="1065092" name="Employees" UUID="0C948B5B-A8B5-A847-8F16-9A49EF175325"/>
+								</FieldReference>
+							</LeftField>
+							<RightField>
+								<FieldReference id="2" name="EmployeeForeignKey" UUID="C966A4EF-A445-AA41-985E-C034C1E5E565">
+									<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+								</FieldReference>
+							</RightField>
+						</JoinPredicate>
+					</JoinPredicateList>
+					<TagList/>
+				</Relationship>

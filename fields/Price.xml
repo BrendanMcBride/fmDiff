@@ -1,0 +1,9 @@
+<Field DefaultStyle="" id="5" name="Price" fieldtype="Normal" datatype="Number" comment="">
+							<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">0E98A4BA-C3D7-214D-A90F-F3382F6320CA</UUID>
+							<AutoEnter type="" prohibitModification="False"/>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"/>
+							<Storage autoIndex="True" index="None" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"/>
+							</Storage>
+							<TagList/>
+						</Field>

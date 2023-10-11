@@ -1,0 +1,9 @@
+<TableOccurrence viewState="Related" height="74" id="1065091" name="Vendors" type="Local">
+					<UUID modifications="3" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">13C6158E-CB6D-2147-9D13-8FD8022BDDB7</UUID>
+					<BaseTableSourceReference type="BaseTableReference">
+						<BaseTableReference id="131" name="Vendors" UUID="580B1B5E-53A1-A543-8E08-48CD06ADEE9D"/>
+					</BaseTableSourceReference>
+					<CoordRect top="20" left="227" bottom="138" right="358"/>
+					<Color red="120" green="120" blue="120" alpha="1.00"/>
+					<TagList/>
+				</TableOccurrence>

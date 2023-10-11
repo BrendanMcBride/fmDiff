@@ -1,0 +1,12 @@
+<Field DefaultStyle="" id="9" name="Total" fieldtype="Summary" datatype="Number" comment="">
+							<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">8E655271-E149-CD40-9709-909F72EFF1C0</UUID>
+							<AutoEnter type="" prohibitModification="False"/>
+							<SummaryInfo restartEachGroup="False" summarizeRepetition="Together" operation="Total">
+								<SummaryField>
+									<FieldReference id="5" name="Price" UUID="0E98A4BA-C3D7-214D-A90F-F3382F6320CA">
+										<BaseTableReference id="130" name="Assets" UUID="CFFDDAEB-808C-4A40-BC86-CB46C698C821"/>
+									</FieldReference>
+								</SummaryField>
+							</SummaryInfo>
+							<TagList/>
+						</Field>

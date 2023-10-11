@@ -1,0 +1,36 @@
+<Relationship id="2">
+					<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">9BFAF494-6484-4D47-B482-8F640FA14027</UUID>
+					<LeftTable cascadeCreate="False" cascadeDelete="False" type="Local">
+						<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+						<SortSpecification value="False" maintain="True"/>
+					</LeftTable>
+					<RightTable cascadeCreate="True" cascadeDelete="False" type="Local">
+						<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+						<SortSpecification value="True" maintain="True">
+							<SortList membercount="1">
+								<Sort type="Descending">
+									<PrimaryField>
+										<FieldReference id="5" name="Sort By" UUID="525B3274-1E24-0B48-BDAD-A0E5B675A108">
+											<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+										</FieldReference>
+									</PrimaryField>
+								</Sort>
+							</SortList>
+						</SortSpecification>
+					</RightTable>
+					<JoinPredicateList membercount="1">
+						<JoinPredicate type="Equal">
+							<LeftField>
+								<FieldReference id="10" name="PrimaryKey" UUID="A479A304-6D29-254C-8E5C-AB071FA1BB2B">
+									<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+								</FieldReference>
+							</LeftField>
+							<RightField>
+								<FieldReference id="1" name="AssetForeignKey" UUID="90715E2C-9B8B-834E-995E-DD5648E45466">
+									<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+								</FieldReference>
+							</RightField>
+						</JoinPredicate>
+					</JoinPredicateList>
+					<TagList/>
+				</Relationship>

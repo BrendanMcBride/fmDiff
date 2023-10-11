@@ -1,0 +1,9 @@
+<Field DefaultStyle="" id="2" name="EmployeeForeignKey" fieldtype="Normal" datatype="Text" comment="Unique identifier of each record in the related table">
+							<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">C966A4EF-A445-AA41-985E-C034C1E5E565</UUID>
+							<AutoEnter type="" prohibitModification="False"/>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"/>
+							<Storage autoIndex="True" index="Minimal" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"/>
+							</Storage>
+							<TagList/>
+						</Field>

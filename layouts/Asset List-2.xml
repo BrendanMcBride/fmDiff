@@ -1,0 +1,764 @@
+<Layout id="2" name="Asset List" width="1024">
+					<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+					<LayoutThemeReference id="1" name="com.filemaker.theme.custom.91E41C96_BCD5_8642_904A_BBF5DEE3C5B9" UUID="8F9BB53C-F972-BC46-97EE-E9F7F7A440DF" Display="Universal Touch" Base="com.filemaker.theme.universal_touch"/>
+					<PartsList membercount="4">
+						<Part type="Top Navigation" kind="12">
+							<Definition type="Top Navigation" kind="12" size="44" absolute="0" Options="0">
+								<LocalCSS name="light-secondary-part"><![CDATA[self.light-secondary-part
+{
+}
+]]></LocalCSS>
+							</Definition>
+							<ObjectList membercount="1">
+								<LayoutObject id="1" type="Button Bar" name="" kind="18">
+									<UUID>FB2A7AC7-B519-2B45-9B21-92F44E452938</UUID>
+									<Bounds top="13" left="212" bottom="34" right="812"/>
+									<Options>1879064576</Options>
+									<TabOrder membercount="1">
+										<Location id="0">7</Location>
+									</TabOrder>
+									<ButtonBar>
+										<Options>0</Options>
+										<Select>
+											<id>2</id>
+										</Select>
+										<ObjectList membercount="3">
+											<LayoutObject id="2" type="Button" name="Assets" kind="10">
+												<UUID>BE335F65-867B-0045-9C01-10B0E4ABD8CE</UUID>
+												<Bounds top="0" left="0" bottom="21" right="200"/>
+												<Options>805306368</Options>
+												<Button>
+													<Options>2</Options>
+													<Label>
+														<Calculation>
+															<Text><![CDATA["Assets"]]></Text>
+															<ChunkList hash="24927B89E9658027871322EBFC9849E9">
+																<Chunk type="NoRef">"Assets"</Chunk>
+															</ChunkList>
+														</Calculation>
+													</Label>
+													<IconData type="0" size="12"/>
+													<action>
+														<Step index="0" id="6" name="Go to Layout" enable="True">
+															<UUID/>
+															<OwnerID/>
+															<Options>8</Options>
+															<ParameterValues membercount="2">
+																<Parameter type="LayoutReferenceContainer">
+																	<LayoutReferenceContainer value="5">
+																		<LayoutReference id="2" name="Asset List" UUID="DB0A16B1-4BF6-0240-A98A-9727331EACA2"/>
+																	</LayoutReferenceContainer>
+																</Parameter>
+																<Parameter type="Animation">
+																	<Animation name="None" value="0"/>
+																</Parameter>
+															</ParameterValues>
+														</Step>
+													</action>
+												</Button>
+												<LocalCSS name="separator-uppercase-highlight-buttonbar"><![CDATA[self.separator-uppercase-highlight-buttonbar
+{
+}
+]]></LocalCSS>
+											</LayoutObject>
+											<LayoutObject id="3" type="Button" name="Vendors" kind="10">
+												<UUID>D7A34F83-404A-2C4A-94D1-659B8A5F4393</UUID>
+												<Bounds top="0" left="200" bottom="21" right="400"/>
+												<Options>805306368</Options>
+												<Button>
+													<Options>2</Options>
+													<Label>
+														<Calculation>
+															<Text><![CDATA["Vendors"]]></Text>
+															<ChunkList hash="CEC556A1F1977F6D36C3A6D0FADE9C55">
+																<Chunk type="NoRef">"Vendors"</Chunk>
+															</ChunkList>
+														</Calculation>
+													</Label>
+													<IconData type="0" size="12"/>
+													<action>
+														<Step index="0" id="6" name="Go to Layout" enable="True">
+															<UUID/>
+															<OwnerID/>
+															<Options>8</Options>
+															<ParameterValues membercount="2">
+																<Parameter type="LayoutReferenceContainer">
+																	<LayoutReferenceContainer value="5">
+																		<LayoutReference id="5" name="Vendor List" UUID="9D63E78A-08B1-AE4E-9D56-79EC6121A998"/>
+																	</LayoutReferenceContainer>
+																</Parameter>
+																<Parameter type="Animation">
+																	<Animation name="None" value="0"/>
+																</Parameter>
+															</ParameterValues>
+														</Step>
+													</action>
+												</Button>
+												<LocalCSS name="separator-uppercase-highlight-buttonbar"><![CDATA[self.separator-uppercase-highlight-buttonbar
+{
+}
+]]></LocalCSS>
+											</LayoutObject>
+											<LayoutObject id="4" type="Button" name="Employees" kind="10">
+												<UUID>E0DBE28C-23CD-F34E-A6EC-26F6475B69D1</UUID>
+												<Bounds top="0" left="400" bottom="21" right="600"/>
+												<Options>805306368</Options>
+												<Button>
+													<Options>2</Options>
+													<Label>
+														<Calculation>
+															<Text><![CDATA["Employees"]]></Text>
+															<ChunkList hash="7CB4083990B4E5CFA8E2E91A15D5440D">
+																<Chunk type="NoRef">"Employees"</Chunk>
+															</ChunkList>
+														</Calculation>
+													</Label>
+													<IconData type="0" size="12"/>
+													<action>
+														<Step index="0" id="6" name="Go to Layout" enable="True">
+															<UUID/>
+															<OwnerID/>
+															<Options>8</Options>
+															<ParameterValues membercount="2">
+																<Parameter type="LayoutReferenceContainer">
+																	<LayoutReferenceContainer value="5">
+																		<LayoutReference id="8" name="Employee List" UUID="21C6C676-5D9A-4C46-8F3C-205625A32343"/>
+																	</LayoutReferenceContainer>
+																</Parameter>
+																<Parameter type="Animation">
+																	<Animation name="None" value="0"/>
+																</Parameter>
+															</ParameterValues>
+														</Step>
+													</action>
+												</Button>
+												<LocalCSS name="separator-uppercase-highlight-buttonbar"><![CDATA[self.separator-uppercase-highlight-buttonbar
+{
+}
+]]></LocalCSS>
+											</LayoutObject>
+										</ObjectList>
+									</ButtonBar>
+									<LocalCSS name="separator-uppercase-highlight-buttonbar"><![CDATA[self.separator-uppercase-highlight-buttonbar
+{
+}
+]]></LocalCSS>
+									<Tooltip>
+										<Text><![CDATA["Navigation"]]></Text>
+										<ChunkList hash="DBB903DC197415E4A5EF95134910CF4B">
+											<Chunk type="NoRef">"Navigation"</Chunk>
+										</ChunkList>
+									</Tooltip>
+								</LayoutObject>
+							</ObjectList>
+						</Part>
+						<Part type="Header" kind="1">
+							<Definition type="Header" kind="1" size="30" absolute="44" Options="0">
+								<LocalCSS name="light-secondary-subsummary"><![CDATA[self.light-secondary-subsummary
+{
+}
+]]></LocalCSS>
+							</Definition>
+							<ObjectList membercount="5">
+								<LayoutObject id="5" type="Text" name="" kind="2">
+									<UUID>61A0327D-51EC-1F4E-8B7B-EB4B39254419</UUID>
+									<Bounds top="52" left="791" bottom="71" right="976"/>
+									<Options>1610612736</Options>
+									<Text>
+										<Options>2</Options>
+										<StyledText>
+											<Data><![CDATA[Used By]]></Data>
+										</StyledText>
+									</Text>
+									<LocalCSS name="small-primary-text"><![CDATA[self.small-primary-text
+{
+}
+]]></LocalCSS>
+								</LayoutObject>
+								<LayoutObject id="6" type="Text" name="" kind="2">
+									<UUID>C291793E-B282-BC43-9903-7310C28E0876</UUID>
+									<Bounds top="52" left="671" bottom="71" right="782"/>
+									<Options>1610612736</Options>
+									<Text>
+										<Options>2</Options>
+										<StyledText>
+											<Data><![CDATA[Price]]></Data>
+										</StyledText>
+									</Text>
+									<LocalCSS name="small-primary-text"><![CDATA[self.small-primary-text
+{
+}
+]]></LocalCSS>
+								</LayoutObject>
+								<LayoutObject id="7" type="Text" name="" kind="2">
+									<UUID>9E4F3693-0BB5-9747-97FF-78374D93CF8F</UUID>
+									<Bounds top="52" left="477" bottom="71" right="662"/>
+									<Options>1610612736</Options>
+									<Text>
+										<Options>2</Options>
+										<StyledText>
+											<Data><![CDATA[Purchase Date]]></Data>
+										</StyledText>
+									</Text>
+									<LocalCSS name="small-primary-text"><![CDATA[self.small-primary-text
+{
+}
+]]></LocalCSS>
+								</LayoutObject>
+								<LayoutObject id="8" type="Text" name="" kind="2">
+									<UUID>019EDF78-C421-2547-905B-D89696C962B3</UUID>
+									<Bounds top="52" left="283" bottom="71" right="468"/>
+									<Options>1610612736</Options>
+									<Text>
+										<Options>2</Options>
+										<StyledText>
+											<Data><![CDATA[Type]]></Data>
+										</StyledText>
+									</Text>
+									<LocalCSS name="small-primary-text"><![CDATA[self.small-primary-text
+{
+}
+]]></LocalCSS>
+								</LayoutObject>
+								<LayoutObject id="9" type="Text" name="" kind="2">
+									<UUID>F48CA128-7235-434A-86FF-CE019E952C54</UUID>
+									<Bounds top="52" left="101" bottom="71" right="274"/>
+									<Options>1879048192</Options>
+									<Text>
+										<Options>2</Options>
+										<StyledText>
+											<Data><![CDATA[Name]]></Data>
+										</StyledText>
+									</Text>
+									<LocalCSS name="small-primary-text"><![CDATA[self.small-primary-text
+{
+}
+]]></LocalCSS>
+								</LayoutObject>
+							</ObjectList>
+						</Part>
+						<Part type="Body" kind="4">
+							<Definition type="Body" kind="4" size="60" absolute="74" Options="0"/>
+							<ObjectList membercount="8">
+								<LayoutObject id="10" type="Button" name="Go to details." kind="10">
+									<UUID>3A4CF264-25A6-F847-B0CB-5F2A467F7D92</UUID>
+									<Bounds top="74" left="980" bottom="134" right="1024"/>
+									<Options>1610629120</Options>
+									<TabOrder membercount="1">
+										<Location id="0">6</Location>
+									</TabOrder>
+									<Button>
+										<Options>0</Options>
+										<Label/>
+										<IconData type="1" size="16">
+											<BinaryData>
+												<LibraryReference id="1" key="6462A422CAC1A4182C25EAA268CF43C6"/>
+												<StreamList>
+													<Stream name="MAIN" type="id" size="4">SVG </Stream>
+													<Stream name="SVG " type="Base64" size="321">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIg0KCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0Ij4NCjxnIGNsYXNzPSJmbV9maWxsIj4NCjxwb2x5Z29uIHBvaW50cz0iNy41NDYsMjQgMTkuNjgsMTIgNy41NDYsMCA2LjgzNSwwLjcyIDE4LjI0LDEyIDYuODM1LDIzLjI4IAkiLz4NCjwvZz4NCjwvc3ZnPg0K</Stream>
+													<Stream name="GLPH" type="Hex" size="1">01</Stream>
+													<Stream name="FNAM" type="Hex" size="39">000000010533373B3D3F001B3B696C0528333D322E19323F2C283534152F2E3633343F74292C3D</Stream>
+												</StreamList>
+											</BinaryData>
+										</IconData>
+										<action>
+											<Step index="0" id="6" name="Go to Layout" enable="True">
+												<UUID/>
+												<OwnerID/>
+												<Options>8</Options>
+												<ParameterValues membercount="2">
+													<Parameter type="LayoutReferenceContainer">
+														<LayoutReferenceContainer value="5">
+															<LayoutReference id="3" name="Asset Details" UUID="519F4C69-E391-944D-A360-618EA2338686"/>
+														</LayoutReferenceContainer>
+													</Parameter>
+													<Parameter type="Animation">
+														<Animation name="None" value="0"/>
+													</Parameter>
+												</ParameterValues>
+											</Step>
+										</action>
+									</Button>
+									<Tooltip>
+										<Text><![CDATA["Go to details."]]></Text>
+										<ChunkList hash="0477FA24B3C1F4BB0678E2C0D37A056E">
+											<Chunk type="NoRef">"Go to details."</Chunk>
+										</ChunkList>
+									</Tooltip>
+								</LayoutObject>
+								<LayoutObject id="11" type="Edit Box" name="" kind="1">
+									<UUID>187AB2EF-9B3A-6F47-A889-66820CCFC7CE</UUID>
+									<Bounds top="82" left="786" bottom="126" right="976"/>
+									<Options>1610629121</Options>
+									<TabOrder membercount="1">
+										<Location id="0">5</Location>
+									</TabOrder>
+									<Field>
+										<FieldReference id="9" name="Name" repetition="1" UUID="2619BAF6-FCF5-034C-97CA-693B8D53DDA8">
+											<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+										</FieldReference>
+										<Options>1179876</Options>
+										<Display Style="0" show="1">
+											<Placeholder findMode="True">
+												<Calculation>
+													<Text><![CDATA["Used By"]]></Text>
+													<ChunkList hash="F6FDB48CAF298C638028582154FBF2F7">
+														<Chunk type="NoRef">"Used By"</Chunk>
+													</ChunkList>
+												</Calculation>
+											</Placeholder>
+										</Display>
+										<Usage inputMode="0" type="1"/>
+									</Field>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>2304</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"/>
+													</Negative>
+												</Style>
+												<DecimalDigits>0</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+									<Tooltip>
+										<Text><![CDATA["Used By"]]></Text>
+										<ChunkList hash="F6FDB48CAF298C638028582154FBF2F7">
+											<Chunk type="NoRef">"Used By"</Chunk>
+										</ChunkList>
+									</Tooltip>
+									<Conditions>
+										<Formatting membercount="1">
+											<Condition type="0" id="0">
+												<Options>5</Options>
+												<Calculation>
+													<Text><![CDATA[Get ( WindowMode )= 0]]></Text>
+													<ChunkList hash="76F67D6E8E798B5DACF4724507FDFDD2">
+														<Chunk type="FunctionRef">Get</Chunk>
+														<Chunk type="NoRef"> ( </Chunk>
+														<Chunk type="FunctionRef">WindowMode</Chunk>
+														<Chunk type="NoRef"> )= 0</Chunk>
+													</ChunkList>
+												</Calculation>
+												<LocalCSS name=""><![CDATA[self:normal .self
+{
+	background-color: rgba(100%,100%,100%,0);
+	color: rgba(0%,0%,0%,1);
+}
+self:normal .icon
+{
+	-fm-icon-color: rgba(0%,0%,0%,0);
+}
+]]></LocalCSS>
+											</Condition>
+										</Formatting>
+									</Conditions>
+								</LayoutObject>
+								<LayoutObject id="12" type="Edit Box" name="" kind="1">
+									<UUID>F6368182-2831-3E47-A7C5-890E585D925D</UUID>
+									<Bounds top="82" left="666" bottom="126" right="782"/>
+									<Options>1610629120</Options>
+									<TabOrder membercount="1">
+										<Location id="0">4</Location>
+									</TabOrder>
+									<Field>
+										<FieldReference id="5" name="Price" repetition="1" UUID="0E98A4BA-C3D7-214D-A90F-F3382F6320CA">
+											<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+										</FieldReference>
+										<Options>1179872</Options>
+										<Display Style="0" show="1">
+											<Placeholder findMode="True">
+												<Calculation>
+													<Text><![CDATA["Price"]]></Text>
+													<ChunkList hash="60C4D04BF1A80B435568FF6ECFBE59EB">
+														<Chunk type="NoRef">"Price"</Chunk>
+													</ChunkList>
+												</Calculation>
+											</Placeholder>
+										</Display>
+										<Usage inputMode="0" type="1"/>
+									</Field>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>18956</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"/>
+													</Negative>
+												</Style>
+												<DecimalDigits>2</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+									<Tooltip>
+										<Text><![CDATA["Price"]]></Text>
+										<ChunkList hash="60C4D04BF1A80B435568FF6ECFBE59EB">
+											<Chunk type="NoRef">"Price"</Chunk>
+										</ChunkList>
+									</Tooltip>
+								</LayoutObject>
+								<LayoutObject id="13" type="Drop-down Calendar" name="" kind="1">
+									<UUID>7006C09F-19C3-774B-A2A0-F9A035ED9EFB</UUID>
+									<Bounds top="82" left="472" bottom="126" right="662"/>
+									<Options>1610629120</Options>
+									<TabOrder membercount="1">
+										<Location id="0">3</Location>
+									</TabOrder>
+									<Field>
+										<FieldReference id="7" name="Purchase Date" repetition="1" UUID="8785C60C-623A-8A42-951F-8C561570FF96">
+											<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+										</FieldReference>
+										<Options>658656</Options>
+										<Display Style="6" show="1">
+											<Placeholder findMode="True">
+												<Calculation>
+													<Text><![CDATA["Purchase Date"]]></Text>
+													<ChunkList hash="DDD840CE46A230B8690166EA895CF63E">
+														<Chunk type="NoRef">"Purchase Date"</Chunk>
+													</ChunkList>
+												</Calculation>
+											</Placeholder>
+										</Display>
+										<Usage inputMode="0" type="1"/>
+									</Field>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>2304</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"/>
+													</Negative>
+												</Style>
+												<DecimalDigits>0</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+									<Tooltip>
+										<Text><![CDATA["Purchase Date"]]></Text>
+										<ChunkList hash="DDD840CE46A230B8690166EA895CF63E">
+											<Chunk type="NoRef">"Purchase Date"</Chunk>
+										</ChunkList>
+									</Tooltip>
+								</LayoutObject>
+								<LayoutObject id="14" type="Drop-down List" name="" kind="1">
+									<UUID>FFA41AC1-E6CF-B64E-8806-43C12851000E</UUID>
+									<Bounds top="82" left="278" bottom="126" right="468"/>
+									<Options>1610629120</Options>
+									<TabOrder membercount="1">
+										<Location id="0">2</Location>
+									</TabOrder>
+									<Field>
+										<FieldReference id="8" name="Type" repetition="1" UUID="E490CACD-8793-5F4A-BFDB-C727BD4B698B">
+											<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+										</FieldReference>
+										<Options>658664</Options>
+										<Display Style="1" show="1">
+											<Placeholder findMode="True">
+												<Calculation>
+													<Text><![CDATA["Type"]]></Text>
+													<ChunkList hash="F6F547AD8D55AC9DAFCD7BE1B4611D05">
+														<Chunk type="NoRef">"Type"</Chunk>
+													</ChunkList>
+												</Calculation>
+											</Placeholder>
+											<ValueListReference id="3" name="Type" UUID="9996D9EF-6E7A-624F-AA54-8EAD5E9DD748"/>
+										</Display>
+										<Usage inputMode="0" type="1"/>
+									</Field>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>2304</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"/>
+													</Negative>
+												</Style>
+												<DecimalDigits>0</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+									<Tooltip>
+										<Text><![CDATA["Type"]]></Text>
+										<ChunkList hash="F6F547AD8D55AC9DAFCD7BE1B4611D05">
+											<Chunk type="NoRef">"Type"</Chunk>
+										</ChunkList>
+									</Tooltip>
+								</LayoutObject>
+								<LayoutObject id="15" type="Edit Box" name="" kind="1">
+									<UUID>ED93CCF3-19D5-8B4C-8B33-B3C409B81A8A</UUID>
+									<Bounds top="82" left="97" bottom="126" right="275"/>
+									<Options>1879064576</Options>
+									<TabOrder membercount="1">
+										<Location id="0">1</Location>
+									</TabOrder>
+									<Field>
+										<FieldReference id="1" name="Name" repetition="1" UUID="32B6B0A1-D9DA-D44E-BB66-B8E9A18A96DD">
+											<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+										</FieldReference>
+										<Options>1179872</Options>
+										<Display Style="0" show="1">
+											<Placeholder findMode="True">
+												<Calculation>
+													<Text><![CDATA["Name"]]></Text>
+													<ChunkList hash="F4E1E2F51C4929654449BC833FED0265">
+														<Chunk type="NoRef">"Name"</Chunk>
+													</ChunkList>
+												</Calculation>
+											</Placeholder>
+										</Display>
+										<Usage inputMode="0" type="1"/>
+									</Field>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>2304</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"/>
+													</Negative>
+												</Style>
+												<DecimalDigits>0</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+									<Tooltip>
+										<Text><![CDATA["Name"]]></Text>
+										<ChunkList hash="F4E1E2F51C4929654449BC833FED0265">
+											<Chunk type="NoRef">"Name"</Chunk>
+										</ChunkList>
+									</Tooltip>
+								</LayoutObject>
+								<LayoutObject id="16" type="Button" name="" kind="10">
+									<UUID>F801E71B-0265-9E4C-8DA1-B9D9C0BC9E3C</UUID>
+									<Bounds top="91" left="29" bottom="117" right="69"/>
+									<Options>805306368</Options>
+									<Button>
+										<Options>0</Options>
+										<Label/>
+										<IconData type="1" size="22">
+											<BinaryData>
+												<LibraryReference id="2" key="A0943109E687A10BB19DA66BE1E8A04A"/>
+												<StreamList>
+													<Stream name="MAIN" type="id" size="4">SVG </Stream>
+													<Stream name="SVG " type="Base64" size="501">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIg0KCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0Ij4NCjxnIGNsYXNzPSJmbV9maWxsIj4NCjxwYXRoIGQ9Ik0wLDIuMDgydjE5LjU1NmgyNFYyLjA4MkgweiBNNi45Niw1LjAyMWMxLjY1NCwwLDIuOTkzLDEuMzQsMi45OTMsMi45OTNzLTEuMzM5LDIuOTk0LTIuOTkzLDIuOTk0DQoJYy0xLjY1MSwwLTIuOTkyLTEuMzQtMi45OTItMi45OTRTNS4zMDksNS4wMjEsNi45Niw1LjAyMXogTTIuMzU0LDE5LjAzOWw1LjY0OS01LjMybDEuOTI1LDAuMzk2bDIuODI1LTIuMzAzbDEuOTI0LDIuNjIyDQoJbDMuNTk0LTUuMDAybDMuNiw5LjYwOEgyLjM1NHoiLz4NCjwvZz4NCjwvc3ZnPg0K</Stream>
+													<Stream name="GLPH" type="Hex" size="1">01</Stream>
+													<Stream name="FNAM" type="Hex" size="25">000000010533373B3D3F000D3B636B0533373B3D3F74292C3D</Stream>
+												</StreamList>
+											</BinaryData>
+										</IconData>
+										<action>
+											<Step index="0" id="0" name="&lt;unknown&gt; [0]" enable="True">
+												<UUID/>
+												<OwnerID/>
+												<Options>0</Options>
+											</Step>
+										</action>
+									</Button>
+									<LocalCSS name="minimum-secondary-button"><![CDATA[self.minimum-secondary-button:normal .icon
+{
+	-fm-icon-color: rgba(70.1961%,70.1961%,70.1961%,1);
+}
+]]></LocalCSS>
+								</LayoutObject>
+								<LayoutObject id="17" type="Container" name="" kind="1">
+									<UUID>919D7A79-EC8A-5547-85D3-DF0D8F9B1360</UUID>
+									<Bounds top="82" left="10" bottom="126" right="90"/>
+									<Options>805322753</Options>
+									<TabOrder membercount="1">
+										<Location id="0">8</Location>
+									</TabOrder>
+									<Field>
+										<FieldReference id="4" name="Image" repetition="1" UUID="7307D07C-9239-C546-B36C-DCE85A289980">
+											<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+										</FieldReference>
+										<Options>1179680</Options>
+										<Display Style="0" show="1"/>
+										<Usage inputMode="0" type="1"/>
+									</Field>
+									<LocalCSS name="fill-container"><![CDATA[self.fill-container:normal .self
+{
+	background-image: none;
+	background-color: rgba(100%,100%,100%,0);
+	border-image-source: none;
+}
+self.fill-container:focus .self
+{
+	background-image: none;
+	background-color: rgba(100%,100%,100%,1);
+	border-image-source: none;
+}
+]]></LocalCSS>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>2304</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"/>
+													</Negative>
+												</Style>
+												<DecimalDigits>0</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+									<Tooltip>
+										<Text><![CDATA["Image"]]></Text>
+										<ChunkList hash="79DA8E0D7D6166FB6659DA2E71C7FA4F">
+											<Chunk type="NoRef">"Image"</Chunk>
+										</ChunkList>
+									</Tooltip>
+									<Conditions>
+										<Formatting membercount="1">
+											<Condition type="0" id="0">
+												<Options>5</Options>
+												<Calculation>
+													<Text><![CDATA[IsEmpty ( Assets::Image ) = 0]]></Text>
+													<ChunkList hash="35E132E28DB2F9141CD53A1D824FF416">
+														<Chunk type="FunctionRef">IsEmpty</Chunk>
+														<Chunk type="NoRef"> ( </Chunk>
+														<Chunk type="FieldRef">
+															<FieldReference id="4" name="Image" repetition="1" UUID="7307D07C-9239-C546-B36C-DCE85A289980">
+																<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+															</FieldReference>
+														</Chunk>
+														<Chunk type="NoRef"> ) = 0</Chunk>
+													</ChunkList>
+												</Calculation>
+												<LocalCSS name=""><![CDATA[self:normal .self
+{
+	background-color: rgba(100%,100%,100%,1);
+	color: rgba(0%,0%,0%,1);
+}
+self:normal .icon
+{
+	-fm-icon-color: rgba(0%,0%,0%,0);
+}
+]]></LocalCSS>
+											</Condition>
+										</Formatting>
+									</Conditions>
+								</LayoutObject>
+							</ObjectList>
+						</Part>
+						<Part type="Footer" kind="7">
+							<Definition type="Footer" kind="7" size="48" absolute="134" Options="0">
+								<LocalCSS name="light-secondary-subsummary"><![CDATA[self.light-secondary-subsummary
+{
+}
+]]></LocalCSS>
+							</Definition>
+							<ObjectList membercount="2">
+								<LayoutObject id="18" type="Edit Box" name="" kind="1">
+									<UUID>F6083E87-B29F-B74A-8CEA-47B17957959A</UUID>
+									<Bounds top="135" left="666" bottom="179" right="782"/>
+									<Options>1610629120</Options>
+									<Field>
+										<FieldReference id="9" name="Total" repetition="1" UUID="8E655271-E149-CD40-9709-909F72EFF1C0">
+											<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+										</FieldReference>
+										<Options>1179700</Options>
+										<Display Style="0" show="1"/>
+										<Usage inputMode="0" type="1"/>
+									</Field>
+									<LocalCSS name=""><![CDATA[self:normal .self
+{
+	background-image: none;
+	background-color: rgba(0%,0%,0%,0);
+	border-image-source: none;
+}
+]]></LocalCSS>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>18956</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"/>
+													</Negative>
+												</Style>
+												<DecimalDigits>2</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+									<Tooltip>
+										<Text><![CDATA["Total"]]></Text>
+										<ChunkList hash="890D49D4D3F6DD02D60C9312DCBE9033">
+											<Chunk type="NoRef">"Total"</Chunk>
+										</ChunkList>
+									</Tooltip>
+								</LayoutObject>
+								<LayoutObject id="19" type="Text" name="" kind="2">
+									<UUID>3AE02A48-67F8-C44C-B1E0-23C8A956D8E5</UUID>
+									<Bounds top="149" left="497" bottom="169" right="655"/>
+									<Options>1610612736</Options>
+									<Text>
+										<Options>2</Options>
+										<StyledText>
+											<Data><![CDATA[Total]]></Data>
+										</StyledText>
+									</Text>
+									<LocalCSS name=""><![CDATA[self:normal .self
+{
+	text-align: right;
+}
+]]></LocalCSS>
+								</LayoutObject>
+							</ObjectList>
+						</Part>
+					</PartsList>
+					<UUID modifications="23" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:24">DB0A16B1-4BF6-0240-A98A-9727331EACA2</UUID>
+					<TagList/>
+					<ClientType>0</ClientType>
+					<Options hidden="False">284363275</Options>
+					<LocalCSS name="secondary-background"><![CDATA[self.secondary-background
+{
+}
+]]></LocalCSS>
+				</Layout>

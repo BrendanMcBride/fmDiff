@@ -1,0 +1,22 @@
+<Field DefaultStyle="" id="1" name="AssetForeignKey" fieldtype="Normal" datatype="Text" comment="Unique identifier of each record in the related table">
+							<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">90715E2C-9B8B-834E-995E-DD5648E45466</UUID>
+							<AutoEnter type="Calculated" prohibitModification="False" overwriteExisting="False" alwaysEvaluate="False">
+								<Calculated>
+									<Calculation>
+										<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+										<Text><![CDATA[Get ( UUID )]]></Text>
+										<ChunkList hash="9BEC4C5D2CF1659E640FE3DBFE5C12E3">
+											<Chunk type="FunctionRef">Get</Chunk>
+											<Chunk type="NoRef"> ( </Chunk>
+											<Chunk type="FunctionRef">UUID</Chunk>
+											<Chunk type="NoRef"> )</Chunk>
+										</ChunkList>
+									</Calculation>
+								</Calculated>
+							</AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"/>
+							<Storage autoIndex="True" index="Minimal" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"/>
+							</Storage>
+							<TagList/>
+						</Field>

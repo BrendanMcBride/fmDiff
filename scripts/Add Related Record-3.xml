@@ -1,0 +1,54 @@
+<Script>
+					<ScriptReference id="3" name="Add Related Record" UUID="A5096FF8-A4D9-B146-94E2-F2D5E6D52D4B"/>
+					<ObjectList membercount="3">
+						<Step index="0" id="145" name="Go to Object" enable="True">
+							<UUID>5EC2373B-BD02-C345-B224-E683A422BAB5</UUID>
+							<OwnerID/>
+							<Options>16384</Options>
+							<ParameterValues membercount="1">
+								<Parameter type="Object">
+									<Name>
+										<Calculation datatype="1" position="0">
+											<Calculation>
+												<Text><![CDATA["Assigned"]]></Text>
+												<ChunkList hash="B0C50ACD44835D60E665A051627F607F">
+													<Chunk type="NoRef">"Assigned"</Chunk>
+												</ChunkList>
+											</Calculation>
+										</Calculation>
+									</Name>
+									<repetition/>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+						<Step index="1" id="99" name="Go to Portal Row" enable="True">
+							<UUID>12F2D605-5A7B-914B-B506-676001B30EA0</UUID>
+							<OwnerID/>
+							<Options>2</Options>
+							<ParameterValues membercount="2">
+								<Parameter type="Boolean">
+									<Boolean type="Select" id="4096" value="False"/>
+								</Parameter>
+								<Parameter type="Portal">
+									<List name="Last" value="2"/>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+						<Step index="2" id="17" name="Go to Field" enable="True">
+							<UUID>2163BCAE-0100-EC43-8320-BE930757A609</UUID>
+							<OwnerID/>
+							<Options>4097</Options>
+							<ParameterValues membercount="2">
+								<Parameter type="Boolean">
+									<Boolean type="Select/perform" id="4096" value="True"/>
+								</Parameter>
+								<Parameter type="FieldReference">
+									<FieldReference id="2" name="EmployeeForeignKey" UUID="C966A4EF-A445-AA41-985E-C034C1E5E565">
+										<repetition value="1"/>
+										<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+									</FieldReference>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+					</ObjectList>
+				</Script>

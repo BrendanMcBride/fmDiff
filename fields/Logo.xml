@@ -1,0 +1,7 @@
+<Field DefaultStyle="" id="2" name="Logo" fieldtype="Normal" datatype="Binary" comment="">
+							<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">364E547C-CD4D-1647-A38A-473D097D1895</UUID>
+							<AutoEnter type="" prohibitModification="False"/>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"/>
+							<Storage global="False" maxRepetitions="1"/>
+							<TagList/>
+						</Field>

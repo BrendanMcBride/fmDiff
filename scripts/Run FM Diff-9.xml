@@ -1,0 +1,53 @@
+<Script>
+					<ScriptReference id="9" name="Run FM Diff" UUID="11818D2D-C744-184E-8A5C-B3E7304DF748"/>
+					<ObjectList membercount="2">
+						<Step index="0" id="141" name="Set Variable" enable="True">
+							<UUID>F02DA2B4-CE0F-E74B-82CB-D68751A5B45C</UUID>
+							<OwnerID/>
+							<Options>16388</Options>
+							<ParameterValues membercount="1">
+								<Parameter type="Variable">
+									<value>
+										<Calculation datatype="1" position="1">
+											<Calculation>
+												<Text><![CDATA["Assets"]]></Text>
+												<ChunkList hash="24927B89E9658027871322EBFC9849E9">
+													<Chunk type="NoRef">"Assets"</Chunk>
+												</ChunkList>
+											</Calculation>
+										</Calculation>
+									</value>
+									<Name value="$configName"/>
+									<repetition/>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+						<Step index="1" id="111" name="Open URL" enable="True">
+							<UUID>7AB23B88-7B84-8B44-9852-D4051930DE56</UUID>
+							<OwnerID/>
+							<Options>16512</Options>
+							<ParameterValues membercount="2">
+								<Parameter type="Boolean">
+									<Boolean type="With dialog" id="128" value="False"/>
+								</Parameter>
+								<Parameter type="URL">
+									<URL autoEncode="True">
+										<Calculation datatype="1" position="0">
+											<Calculation>
+												<Text><![CDATA["fmp://$/fmDiff.fmp12?script=RunConfiguration&$windowName=" & Get(WindowName) & "&$configName=" & $configName]]></Text>
+												<ChunkList hash="EE9D12C73DA0502AA51C92729B0368F3">
+													<Chunk type="NoRef">"fmp://$/fmDiff.fmp12?script=RunConfiguration&amp;$windowName=" &amp; </Chunk>
+													<Chunk type="FunctionRef">Get</Chunk>
+													<Chunk type="NoRef">(</Chunk>
+													<Chunk type="FunctionRef">WindowName</Chunk>
+													<Chunk type="NoRef">) &amp; "&amp;$configName=" &amp; </Chunk>
+													<Chunk type="VariableReference">$configName</Chunk>
+												</ChunkList>
+											</Calculation>
+										</Calculation>
+									</URL>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+					</ObjectList>
+				</Script>

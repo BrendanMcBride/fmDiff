@@ -1,0 +1,13 @@
+<ValueList id="3" name="Type">
+					<Source value="FromField"/>
+					<Field>
+						<PrimaryField show="True" sort="True">
+							<FieldReference id="8" name="Type" UUID="E490CACD-8793-5F4A-BFDB-C727BD4B698B">
+								<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+							</FieldReference>
+						</PrimaryField>
+						<ShowRelated value="False"/>
+					</Field>
+					<UUID modifications="2" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">9996D9EF-6E7A-624F-AA54-8EAD5E9DD748</UUID>
+					<TagList/>
+				</ValueList>

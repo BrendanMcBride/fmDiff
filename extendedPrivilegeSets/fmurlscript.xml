@@ -1,0 +1,5 @@
+<ExtendedPrivilege id="8" name="fmurlscript">
+						<Description>Allow URLs to run FileMaker scripts</Description>
+						<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:24">507CAE7A-2ED9-3D41-B3C1-F0679EDCEB02</UUID>
+						<TagList/>
+					</ExtendedPrivilege>

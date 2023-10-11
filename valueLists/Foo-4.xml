@@ -1,0 +1,9 @@
+<ValueList id="4" name="Foo">
+					<Source value="Custom"/>
+					<CustomValues>
+						<Text><![CDATA[Bar
+Baz]]></Text>
+					</CustomValues>
+					<UUID modifications="2" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">DBDF375D-ED7E-4B4B-B877-A0B58620F077</UUID>
+					<TagList/>
+				</ValueList>

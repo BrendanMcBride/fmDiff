@@ -1,0 +1,9 @@
+<TableOccurrence viewState="Related" height="62" id="1065093" name="Assignments" type="Local">
+					<UUID modifications="4" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">46EBEF9D-2F61-024E-8D5A-F39F283BA2C9</UUID>
+					<BaseTableSourceReference type="BaseTableReference">
+						<BaseTableReference id="133" name="Assignments" UUID="4F03B985-B195-4148-8C39-5346D832AF11"/>
+					</BaseTableSourceReference>
+					<CoordRect top="80" left="227" bottom="198" right="358"/>
+					<Color red="120" green="120" blue="120" alpha="1.00"/>
+					<TagList/>
+				</TableOccurrence>

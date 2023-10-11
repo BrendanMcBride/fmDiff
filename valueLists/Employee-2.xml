@@ -1,0 +1,18 @@
+<ValueList id="2" name="Employee">
+					<Source value="FromField"/>
+					<Field>
+						<PrimaryField show="False" sort="False">
+							<FieldReference id="4" name="PrimaryKey" UUID="92B6C936-B0A3-794E-8BDD-334423637294">
+								<TableOccurrenceReference id="1065092" name="Employees" UUID="0C948B5B-A8B5-A847-8F16-9A49EF175325"/>
+							</FieldReference>
+						</PrimaryField>
+						<SecondaryField show="True" sort="True">
+							<FieldReference id="8" name="Name" UUID="1A5720EB-1384-6E42-B9B3-D67378A97F82">
+								<TableOccurrenceReference id="1065092" name="Employees" UUID="0C948B5B-A8B5-A847-8F16-9A49EF175325"/>
+							</FieldReference>
+						</SecondaryField>
+						<ShowRelated value="False"/>
+					</Field>
+					<UUID modifications="2" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">4C64C9C5-310A-6B42-9CE6-AADE16300C93</UUID>
+					<TagList/>
+				</ValueList>

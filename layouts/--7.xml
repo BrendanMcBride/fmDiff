@@ -1,0 +1,19 @@
+<Layout id="7" name="-" width="1024" isSeparatorItem="True">
+					<TableOccurrenceReference id="1065090" name="Assets" UUID="895CFD31-78C9-094B-A20D-EEFB8CC76E65"/>
+					<LayoutThemeReference id="2" name="com.filemaker.theme.enlightened" UUID="29034ACF-672F-6142-A2A6-63F574403A02" Base="com.filemaker.theme.minimalist"/>
+					<PartsList membercount="3">
+						<Part type="Header" kind="1">
+							<Definition type="Header" kind="1" size="50" absolute="0" Options="0"/>
+						</Part>
+						<Part type="Body" kind="4">
+							<Definition type="Body" kind="4" size="482" absolute="50" Options="0"/>
+						</Part>
+						<Part type="Footer" kind="7">
+							<Definition type="Footer" kind="7" size="40" absolute="532" Options="0"/>
+						</Part>
+					</PartsList>
+					<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:24">4CD05F52-534B-C143-B64B-BD0CDCA64252</UUID>
+					<TagList/>
+					<ClientType>0</ClientType>
+					<Options hidden="False">15927297</Options>
+				</Layout>

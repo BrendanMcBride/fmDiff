@@ -1,0 +1,9 @@
+<TableOccurrence viewState="Full" height="210" id="1065090" name="Assets" type="Local">
+					<UUID modifications="7" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">895CFD31-78C9-094B-A20D-EEFB8CC76E65</UUID>
+					<BaseTableSourceReference type="BaseTableReference">
+						<BaseTableReference id="130" name="Assets" UUID="CFFDDAEB-808C-4A40-BC86-CB46C698C821"/>
+					</BaseTableSourceReference>
+					<CoordRect top="46" left="32" bottom="302" right="163"/>
+					<Color red="120" green="120" blue="120" alpha="1.00"/>
+					<TagList/>
+				</TableOccurrence>

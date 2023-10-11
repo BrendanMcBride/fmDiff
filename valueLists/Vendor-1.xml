@@ -1,0 +1,13 @@
+<ValueList id="1" name="Vendor">
+					<Source value="FromField"/>
+					<Field>
+						<PrimaryField show="True" sort="True">
+							<FieldReference id="1" name="Name" UUID="B6533E92-7B3A-4A48-895E-14ADCFA3A35E">
+								<TableOccurrenceReference id="1065091" name="Vendors" UUID="13C6158E-CB6D-2147-9D13-8FD8022BDDB7"/>
+							</FieldReference>
+						</PrimaryField>
+						<ShowRelated value="False"/>
+					</Field>
+					<UUID modifications="2" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">DEDEA9E1-2957-0E44-8513-AF2A1A2C8E8A</UUID>
+					<TagList/>
+				</ValueList>

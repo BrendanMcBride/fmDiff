@@ -1,0 +1,125 @@
+<Layout id="11" name="NEW_TABLE" width="1024">
+					<TableOccurrenceReference id="1065094" name="NEW_TABLE" UUID="1A6D6C45-BB18-FF4F-8E1F-BDE533CE20E9"/>
+					<LayoutThemeReference id="2" name="com.filemaker.theme.enlightened" UUID="29034ACF-672F-6142-A2A6-63F574403A02" Base="com.filemaker.theme.minimalist"/>
+					<PartsList membercount="3">
+						<Part type="Header" kind="1">
+							<Definition type="Header" kind="1" size="50" absolute="0" Options="0"/>
+						</Part>
+						<Part type="Body" kind="4">
+							<Definition type="Body" kind="4" size="482" absolute="50" Options="0"/>
+							<ObjectList membercount="4">
+								<LayoutObject id="1" type="Text" name="" kind="2">
+									<UUID>5B186539-F461-2A41-9688-BFE6E71FE913</UUID>
+									<Bounds top="55" left="95" bottom="73" right="127"/>
+									<Options>805306368</Options>
+									<Text>
+										<Options>0</Options>
+										<StyledText>
+											<Data><![CDATA[hello]]></Data>
+										</StyledText>
+									</Text>
+									<LocalCSS name=""><![CDATA[self:normal .self
+{
+	text-align: right;
+	-fm-text-vertical-align: center;
+}
+]]></LocalCSS>
+								</LayoutObject>
+								<LayoutObject id="2" type="Edit Box" name="" kind="1">
+									<UUID>B97A125A-F0FD-DC40-8035-5847483DEE31</UUID>
+									<Bounds top="52" left="138" bottom="74" right="391"/>
+									<Options>805306368</Options>
+									<Field>
+										<FieldReference id="6" name="hello" repetition="1" UUID="DA934F32-D327-0948-B767-80ED7BC42AB4">
+											<TableOccurrenceReference id="1065094" name="NEW_TABLE" UUID="1A6D6C45-BB18-FF4F-8E1F-BDE533CE20E9"/>
+										</FieldReference>
+										<Options>32</Options>
+										<Display Style="0" show="1"/>
+										<Usage inputMode="0" type="1"/>
+									</Field>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>2304</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"/>
+													</Negative>
+												</Style>
+												<DecimalDigits>2</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+									<Accessibility>
+										<Label>1</Label>
+									</Accessibility>
+								</LayoutObject>
+								<LayoutObject id="3" type="Text" name="" kind="2">
+									<UUID>1B93FF0F-F459-D04A-AEBD-2251B5C84E45</UUID>
+									<Bounds top="79" left="92" bottom="97" right="127"/>
+									<Options>805306368</Options>
+									<Text>
+										<Options>0</Options>
+										<StyledText>
+											<Data><![CDATA[world]]></Data>
+										</StyledText>
+									</Text>
+									<LocalCSS name=""><![CDATA[self:normal .self
+{
+	text-align: right;
+	-fm-text-vertical-align: center;
+}
+]]></LocalCSS>
+								</LayoutObject>
+								<LayoutObject id="4" type="Edit Box" name="" kind="1">
+									<UUID>58CD08ED-85CE-0A4C-836C-CF122701C5DC</UUID>
+									<Bounds top="76" left="138" bottom="98" right="391"/>
+									<Options>805306368</Options>
+									<Field>
+										<FieldReference id="7" name="world" repetition="1" UUID="7E44006A-5887-5947-952F-F1F81CB67A3B">
+											<TableOccurrenceReference id="1065094" name="NEW_TABLE" UUID="1A6D6C45-BB18-FF4F-8E1F-BDE533CE20E9"/>
+										</FieldReference>
+										<Options>32</Options>
+										<Display Style="0" show="1"/>
+										<Usage inputMode="0" type="1"/>
+									</Field>
+									<ExtendedAttributes>
+										<Formatting>
+											<Graphic>
+												<Options>5</Options>
+											</Graphic>
+											<Time>
+												<Options>143</Options>
+											</Time>
+											<Numeric>
+												<Options>2304</Options>
+												<Style>
+													<Negative>
+														<Color red="221" green="0" blue="0" alpha="1.00"/>
+													</Negative>
+												</Style>
+												<DecimalDigits>2</DecimalDigits>
+											</Numeric>
+										</Formatting>
+									</ExtendedAttributes>
+									<Accessibility>
+										<Label>3</Label>
+									</Accessibility>
+								</LayoutObject>
+							</ObjectList>
+						</Part>
+						<Part type="Footer" kind="7">
+							<Definition type="Footer" kind="7" size="40" absolute="532" Options="0"/>
+						</Part>
+					</PartsList>
+					<UUID modifications="3" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:24">EB2F0659-3B45-754F-B88B-869427967E1B</UUID>
+					<TagList/>
+					<ClientType>0</ClientType>
+					<Options hidden="False">15927297</Options>
+				</Layout>

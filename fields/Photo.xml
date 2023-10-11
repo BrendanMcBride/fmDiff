@@ -1,0 +1,7 @@
+<Field DefaultStyle="" id="2" name="Photo" fieldtype="Normal" datatype="Binary" comment="">
+							<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">4D2436D5-8A7F-9A46-BAA1-8ABC608B6653</UUID>
+							<AutoEnter type="" prohibitModification="False"/>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"/>
+							<Storage global="False" maxRepetitions="1"/>
+							<TagList/>
+						</Field>

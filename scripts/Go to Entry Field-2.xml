@@ -1,0 +1,91 @@
+<Script>
+					<ScriptReference id="2" name="Go to Entry Field" UUID="AABD3E32-F24A-4940-8614-78FDF1D69EDD"/>
+					<ObjectList membercount="6">
+						<Step index="0" id="145" name="Go to Object" enable="True">
+							<UUID>01BDC345-7449-B640-B3D6-C9270D8859DF</UUID>
+							<OwnerID/>
+							<Options>16384</Options>
+							<ParameterValues membercount="1">
+								<Parameter type="Object">
+									<Name>
+										<Calculation datatype="1" position="0">
+											<Calculation>
+												<Text><![CDATA[Get ( ScriptParameter )]]></Text>
+												<ChunkList hash="839258C5BE249E7457B28E7E08897D09">
+													<Chunk type="FunctionRef">Get</Chunk>
+													<Chunk type="NoRef"> ( </Chunk>
+													<Chunk type="FunctionRef">ScriptParameter</Chunk>
+													<Chunk type="NoRef"> )</Chunk>
+												</ChunkList>
+											</Calculation>
+										</Calculation>
+									</Name>
+									<repetition/>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+						<Step index="1" id="50" name="Select All" enable="True">
+							<UUID>D9A094D2-5123-134B-80CF-B48914FA13CB</UUID>
+							<OwnerID/>
+							<Options>0</Options>
+						</Step>
+						<Step index="2" id="89" name="# (comment)" enable="True">
+							<UUID>3F88FF25-70DF-5A4B-9946-B8755DB4BB00</UUID>
+							<OwnerID/>
+							<Options>0</Options>
+							<ParameterValues membercount="1">
+								<Parameter type="Comment">
+									<Comment/>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+						<Step index="3" id="141" name="Set Variable" enable="True">
+							<UUID>6A8BBEFA-5E99-ED43-959F-297F70EFDAE0</UUID>
+							<OwnerID/>
+							<Options>16388</Options>
+							<ParameterValues membercount="1">
+								<Parameter type="Variable">
+									<value>
+										<Calculation datatype="1" position="1">
+											<Calculation>
+												<Text><![CDATA["Hello World"]]></Text>
+												<ChunkList hash="B5400398D4024137986B7F7CFF958C8D">
+													<Chunk type="NoRef">"Hello World"</Chunk>
+												</ChunkList>
+											</Calculation>
+										</Calculation>
+									</value>
+									<Name value="$test"/>
+									<repetition/>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+						<Step index="4" id="89" name="# (comment)" enable="True">
+							<UUID>65A1AE28-43B1-4048-8F40-C2EC8A8257A0</UUID>
+							<OwnerID/>
+							<Options>0</Options>
+							<ParameterValues membercount="1">
+								<Parameter type="Comment">
+									<Comment/>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+						<Step index="5" id="103" name="Exit Script" enable="True">
+							<UUID>E4A684BA-A144-6843-BD11-3A587A482852</UUID>
+							<OwnerID/>
+							<Options>16384</Options>
+							<ParameterValues membercount="1">
+								<Parameter type="Calculation">
+									<Calculation datatype="1" position="0">
+										<Calculation>
+											<Text><![CDATA["{}"]]></Text>
+											<ChunkList hash="7A01B70BCB74117AD9191070233A7DE7">
+												<Chunk type="NoRef">"{}"</Chunk>
+											</ChunkList>
+										</Calculation>
+									</Calculation>
+								</Parameter>
+							</ParameterValues>
+						</Step>
+					</ObjectList>
+				</Script>

@@ -1,0 +1,5 @@
+<PrivilegeSet id="3" name="[Read-Only Access]">
+						<UUID modifications="1" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:24">6FF234D9-CE0E-754C-B43F-DFF50240A373</UUID>
+						<Description>read access to all records, no design access, write access to all global fields</Description>
+						<access default="True"/>
+					</PrivilegeSet>

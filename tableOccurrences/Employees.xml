@@ -1,0 +1,9 @@
+<TableOccurrence viewState="Related" height="78" id="1065092" name="Employees" type="Local">
+					<UUID modifications="5" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">0C948B5B-A8B5-A847-8F16-9A49EF175325</UUID>
+					<BaseTableSourceReference type="BaseTableReference">
+						<BaseTableReference id="132" name="Employees" UUID="A96F2ADA-298C-454D-A039-FCF759B81157"/>
+					</BaseTableSourceReference>
+					<CoordRect top="91" left="459" bottom="209" right="590"/>
+					<Color red="120" green="120" blue="120" alpha="1.00"/>
+					<TagList/>
+				</TableOccurrence>

@@ -1,0 +1,11 @@
+<Field DefaultStyle="" id="4" name="Image" fieldtype="Normal" datatype="Binary" comment="">
+							<UUID modifications="4" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">7307D07C-9239-C546-B36C-DCE85A289980</UUID>
+							<AutoEnter type="" prohibitModification="False"/>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"/>
+							<Storage global="False" maxRepetitions="1">
+								<Remote type="Secure">
+									<BaseDirectoryReference id="0" name="Assets/" absolute="False" UUID="7B32DB54-576F-9146-84D2-3EB856483C88"/>
+								</Remote>
+							</Storage>
+							<TagList/>
+						</Field>

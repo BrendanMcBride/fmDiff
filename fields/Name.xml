@@ -1,0 +1,18 @@
+<Field DefaultStyle="" id="9" name="Name" fieldtype="Normal" datatype="Text" comment="">
+							<UUID modifications="2" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">2619BAF6-FCF5-034C-97CA-693B8D53DDA8</UUID>
+							<AutoEnter type="Looked_up" prohibitModification="False">
+								<Looked_up dontCopyIfEmpty="True" noMatchCopyOption="DoNotCopy">
+									<FieldReference id="8" name="Name" UUID="1A5720EB-1384-6E42-B9B3-D67378A97F82">
+										<TableOccurrenceReference id="1065092" name="Employees" UUID="0C948B5B-A8B5-A847-8F16-9A49EF175325"/>
+									</FieldReference>
+									<Context>
+										<TableOccurrenceReference id="1065093" name="Assignments" UUID="46EBEF9D-2F61-024E-8D5A-F39F283BA2C9"/>
+									</Context>
+								</Looked_up>
+							</AutoEnter>
+							<Validation type="OnlyDuringDataEntry" allowOverride="True" notEmpty="False" unique="False" existing="False"/>
+							<Storage autoIndex="True" index="Minimal" global="False" maxRepetitions="1">
+								<LanguageReference name="English" id="21"/>
+							</Storage>
+							<TagList/>
+						</Field>
