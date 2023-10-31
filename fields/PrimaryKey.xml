@@ -3,7 +3,7 @@
 							<AutoEnter type="Calculated" prohibitModification="True" overwriteExisting="True" alwaysEvaluate="False">
 								<Calculated>
 									<Calculation>
-										<TableOccurrenceReference id="1065094" name="NEW_TABLE" UUID="1A6D6C45-BB18-FF4F-8E1F-BDE533CE20E9"/>
+										<TableOccurrenceReference id="1065094" name="TABLE_NAME_CHANGE" UUID="1A6D6C45-BB18-FF4F-8E1F-BDE533CE20E9"/>
 										<Text><![CDATA[Get( UUID )]]></Text>
 										<ChunkList hash="F8FC751FEE733A347BA2266C54DEC7A0">
 											<Chunk type="FunctionRef">Get</Chunk>

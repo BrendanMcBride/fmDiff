@@ -1,9 +1,0 @@
-<TableOccurrence viewState="Full" height="0" id="1065094" name="NEW_TABLE" type="Local">
-					<UUID modifications="2" userName="Support" accountName="Admin" timestamp="2023-10-11T14:40:23">1A6D6C45-BB18-FF4F-8E1F-BDE533CE20E9</UUID>
-					<BaseTableSourceReference type="BaseTableReference">
-						<BaseTableReference id="134" name="NEW_TABLE" UUID="F50181DD-E0F0-D74D-A63A-E9503B9F5566"/>
-					</BaseTableSourceReference>
-					<CoordRect top="20" left="772" bottom="131" right="903"/>
-					<Color red="120" green="120" blue="120" alpha="1.00"/>
-					<TagList/>
-				</TableOccurrence>
